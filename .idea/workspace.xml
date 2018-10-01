@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b30ab548-26e2-4409-b642-5e8ce16c7489" name="Default" comment="" />
+    <list default="true" id="b30ab548-26e2-4409-b642-5e8ce16c7489" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ze1o.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ze1o.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train_AugmentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train_AugmentData.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
     <SUITE FILE_PATH="coverage/keras_resnet_number_classifier$augment_data.coverage" NAME="augment_data Coverage Results" MODIFIED="1538377834527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras_resnet_number_classifier$test.coverage" NAME="test Coverage Results" MODIFIED="1530256325998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras_resnet_number_classifier$challenge_3.coverage" NAME="challenge_3 Coverage Results" MODIFIED="1529216036872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/keras_train_model$augment_data.coverage" NAME="Train_Augment Coverage Results" MODIFIED="1538382962540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-836956599">
@@ -55,14 +61,47 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1199665667">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="612" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="612" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.compare" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="85" column="13" selection-start-line="85" selection-end-line="86" />
+            <state relative-caret-position="-152">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -70,23 +109,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Train_AugmentData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="1945" column="32" selection-start-line="1945" selection-start-column="20" selection-end-line="1945" selection-end-column="32" />
+            <state relative-caret-position="-340">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Train_AugmentData.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/keras_preprocessing/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="1138" selection-start-line="1138" selection-end-line="1138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/pathlib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="1072" column="8" selection-start-line="1072" selection-start-column="8" selection-end-line="1072" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -106,10 +154,15 @@
       <find>5</find>
       <find>3</find>
       <find>4</find>
+      <find>ハ</find>
+      <find>Dense</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\amyle\PycharmProjects\keras_resnet_number_classifier</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,23 +199,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="keras_resnet_number_classifier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keras_resnet_number_classifier" type="462c0819:PsiDirectoryNode" />
+              <item name="keras_train_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keras_train_model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Train_AugmentData.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -182,8 +235,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.augment_data">
-    <configuration name="augment_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Train_Augment">
+    <configuration name="Train_Augment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="keras_resnet_number_classifier" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,8 +249,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/augment_data.py" />
-      <option name="PARAMETERS" value="--model ../Model/Japan.model --data ./" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Train_AugmentData.py" />
+      <option name="PARAMETERS" value="--model ../Model/Japan.model --data ../Hi_Ka" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -275,11 +328,11 @@
       <item itemvalue="Python.train" />
       <item itemvalue="Python.train_latin" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.augment_data" />
+      <item itemvalue="Python.Train_Augment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.augment_data" />
+        <item itemvalue="Python.Train_Augment" />
       </list>
     </recent_temporary>
   </component>
@@ -309,20 +362,20 @@
     <frame x="47" y="25" width="1319" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14722005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1495693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7709594" weight="0.3278496" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960846" visible="true" weight="0.39774558" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49882537" visible="true" weight="0.3967742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49882537" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" x="387" y="294" width="638" height="204" id="Terminal" order="9" sideWeight="0.50039154" side_tool="true" visible="true" weight="0.39774558" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011746" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" x="387" y="294" width="638" height="204" id="Terminal" order="9" sideWeight="0.5011746" side_tool="true" weight="0.3967742" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011746" side_tool="true" visible="true" weight="0.3967742" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32919955" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -360,6 +413,20 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="data_dir.iterdir()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>data_dir.iterdir()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/challenge_2.py" />
@@ -376,20 +443,12 @@
     <entry file="file://$PROJECT_DIR$/input_challenge_2" />
     <entry file="file://$USER_HOME$/keras_resnet_number/Lib/site-packages/keras_preprocessing/image.py" />
     <entry file="file://$USER_HOME$/keras_resnet_number/Lib/site-packages/keras/utils/np_utils.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/1.png" />
     <entry file="file://$USER_HOME$/keras_resnet_number/Lib/site-packages/keras/legacy/interfaces.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/2.csv" />
-    <entry file="file://$PROJECT_DIR$/results_1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results_1.csv" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/train - Copy.py" />
     <entry file="file://$PROJECT_DIR$/v1_2_v2.py" />
@@ -424,49 +483,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resnet.py">
+    <entry file="file://$PROJECT_DIR$/augment_data.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/keras/layers/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2889" />
+        <state relative-caret-position="30">
+          <caret line="826" column="27" selection-start-line="826" selection-start-column="17" selection-end-line="826" selection-end-column="27" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/augment_data.py">
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1003">
+          <caret line="1945" column="32" selection-start-line="1945" selection-start-column="20" selection-end-line="1945" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="230" column="50" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1072" column="8" selection-start-line="1072" selection-start-column="8" selection-end-line="1072" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/keras_preprocessing/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="1138" selection-start-line="1138" selection-end-line="1138" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="85" column="13" selection-start-line="85" selection-end-line="86" />
+        <state relative-caret-position="-152">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/keras_preprocessing/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="920" column="43" selection-start-line="920" selection-start-column="43" selection-end-line="920" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret line="1945" column="32" selection-start-line="1945" selection-start-column="20" selection-end-line="1945" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Train_AugmentData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="-340">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>
