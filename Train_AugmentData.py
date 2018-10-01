@@ -33,7 +33,7 @@ if __name__ == '__main__':
                        activation="softmax")(model.layers[-1].output)
     new_model = Model(inputs=model.input, outputs=prediction)
 
-    epochs = 50
+    epochs = 30
     learning_rate = 1e-5
     batch_size = 32
     img_rows, img_cols = 64, 64
@@ -71,4 +71,4 @@ if __name__ == '__main__':
         steps_per_epoch=len(datagen)
     )
 
-    model.save(args['save_model'])
+    new_model.save(args['save_model'])
