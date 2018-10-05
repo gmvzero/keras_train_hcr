@@ -57,8 +57,10 @@ if __name__ == '__main__':
     )
 
     # Save the label of index
-    label_file = open('label.txt', 'w')
-    label_file.write(json.dumps(datagen.class_indices))
+    label_file = open('label.txt', 'w', encoding='utf-8')
+    dict_label = {v: k for k, v in datagen.class_indices.items()}
+
+    label_file.write(json.dumps(dict_label, ensure_ascii=False))
 
     opt = Adam(lr=learning_rate, decay=learning_rate / epochs)
     new_model.compile(loss="binary_crossentropy", optimizer=opt,

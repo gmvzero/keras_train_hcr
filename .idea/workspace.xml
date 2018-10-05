@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30ab548-26e2-4409-b642-5e8ce16c7489" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/save_augment_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visual_count_dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train_AugmentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train_AugmentData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/label.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/keras_resnet_number_classifier$challenge_2.coverage" NAME="challenge_2 Coverage Results" MODIFIED="1529206546029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras_resnet_number_classifier$train.coverage" NAME="train Coverage Results" MODIFIED="1530172397381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/keras_train_hcr$Train_Augment.coverage" NAME="Train_Augment Coverage Results" MODIFIED="1538713721870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras_train_hcr$visual_count_dataset.coverage" NAME="visual_count_dataset Coverage Results" MODIFIED="1538565066995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras_resnet_number_classifier$train_latin.coverage" NAME="train_latin Coverage Results" MODIFIED="1530007949926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras_resnet_number_classifier$augment_data.coverage" NAME="augment_data Coverage Results" MODIFIED="1538377834527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -108,75 +109,58 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1080" />
+          <entry key="py" value="1104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1080" />
+          <entry key="Python" value="1104" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/visual_count_dataset.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="427">
-                  <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#0#24#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/save_augment_data.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8">
-                  <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#56#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/keras_preprocessing/image.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="953" column="53" selection-start-line="953" selection-end-line="954" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Train_AugmentData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="59" column="57" lean-forward="true" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/label.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="772" lean-forward="true" selection-start-column="772" selection-end-column="772" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,9 +200,9 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/augment_data.py" />
-        <option value="$PROJECT_DIR$/Train_AugmentData.py" />
         <option value="$PROJECT_DIR$/save_augment_data.py" />
         <option value="$PROJECT_DIR$/visual_count_dataset.py" />
+        <option value="$PROJECT_DIR$/Train_AugmentData.py" />
       </list>
     </option>
   </component>
@@ -239,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.visual_count_dataset">
+  <component name="RunManager" selected="Python.Train_Augment">
     <configuration name="Train_Augment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="keras_resnet_number_classifier" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,7 +274,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Train_AugmentData.py" />
-      <option name="PARAMETERS" value="--model ../Model/Japan.model --data ../Hi_Ka3 --nb_class 2" />
+      <option name="PARAMETERS" value="--data ../Hi_Ka --nb_class 117 --model ./" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -400,7 +384,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visual_count_dataset.py" />
-      <option name="PARAMETERS" value="--data ../Hi_Ka3" />
+      <option name="PARAMETERS" value="--data ../Hi_Ka --nb_class 117" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -418,9 +402,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Train_Augment" />
         <item itemvalue="Python.visual_count_dataset" />
         <item itemvalue="Python.save_augment_data" />
-        <item itemvalue="Python.Train_Augment" />
       </list>
     </recent_temporary>
   </component>
@@ -450,12 +434,12 @@
     <frame x="47" y="25" width="1873" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09885309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09994539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49863464" weight="0.32832617" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76734024" weight="0.32725322" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49754232" weight="0.32832617" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7662479" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49645004" weight="0.39592275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,7 +447,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" x="387" y="294" width="638" height="204" id="Terminal" order="9" sideWeight="0.5011746" side_tool="true" weight="0.3967742" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23265974" side_tool="true" visible="true" weight="0.32725322" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23375204" side_tool="true" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32919955" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -663,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/label.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -693,7 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/save_augment_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="306">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
@@ -708,22 +685,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Train_AugmentData.py">
+    <entry file="file://$PROJECT_DIR$/visual_count_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="798">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visual_count_dataset.py">
+    <entry file="file:///usr/lib/python3.6/typing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        <state relative-caret-position="251">
+          <caret line="2323" column="8" selection-start-line="2323" selection-start-column="8" selection-end-line="2323" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="772" lean-forward="true" selection-start-column="772" selection-end-column="772" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Train_AugmentData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="59" column="57" lean-forward="true" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
